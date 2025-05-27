@@ -8,8 +8,4 @@ jobs:
     with:
       environment: main
       project: python_py
-    secrets: inherit  
- 
- 
-      
-   
+    secrets: inherit 
