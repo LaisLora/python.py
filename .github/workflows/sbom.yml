@@ -6,10 +6,6 @@
 ---
 name: SBOM
 
-on:
-  workflow_dispatch:
-  release:
-
 jobs:
   sbom:
     name: setup
