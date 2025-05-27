@@ -12,11 +12,7 @@ on:
   workflow_dispatch:
   push:
     branches:
-      - '**'   
-  pull_request:
-    branches:
-      - master
-      - main  
+      - dev   
 
 jobs:
   opensource-scan:
