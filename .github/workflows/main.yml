@@ -7,7 +7,7 @@ jobs:
     uses: LaisLora/github-actions-templates/.github/workflows/build_deploy_py.yml@main
     with:
       environment: main
-      project: python_py
+      project: python.py
     secrets: inherit 
  
    
