@@ -4,7 +4,7 @@ on:
       - main
 jobs:
   call:
-    uses: LaisLora/github-actions-templates/.github/workflows/template_python.yml@main
+    uses: LaisLora/github-actions-templates/.github/workflows/build_deploy_py.yml@main
     with:
       environment: main
       project: python_py
