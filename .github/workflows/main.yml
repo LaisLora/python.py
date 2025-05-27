@@ -6,7 +6,7 @@ jobs:
   call:
     uses: LaisLora/github-actions-templates/.github/workflows/template_python.yml@main
     with:
-      environment: dev
+      environment: main
       project: python_py
     secrets: inherit  
  
